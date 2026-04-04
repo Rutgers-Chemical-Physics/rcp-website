@@ -1,4 +1,4 @@
-# Rutgers Chemical Physics Initiative website
+# Rutgers Chemical Physics website
 
 This is a static multi-page website prepared for GitHub Pages.
 
