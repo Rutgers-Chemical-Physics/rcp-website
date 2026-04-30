@@ -261,3 +261,24 @@ footer a { color: white; }
   color: var(--text);
   font-weight: 600;
 }
+.contact-card-link {
+  display: block;
+  color: inherit;
+  transition: transform .2s ease, box-shadow .2s ease, border-color .2s ease;
+}
+.contact-card-link:hover {
+  text-decoration: none;
+  transform: translateY(-2px);
+  border-color: #d8dbe2;
+  box-shadow: 0 20px 40px rgba(17, 17, 17, 0.1);
+}
+.contact-card-link h3,
+.contact-card-link p {
+  color: var(--text);
+}
+.contact-cards .card {
+  text-align: center;
+}
+.contact-cards .card h3 {
+  margin-top: 0.85rem;
+}
