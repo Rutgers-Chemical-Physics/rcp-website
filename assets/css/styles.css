@@ -279,9 +279,21 @@ footer a { color: white; }
   opacity: 0.98;
 }
 .contact-strip {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   text-align: center;
+  max-width: 800px;
+  margin-inline: auto;
+}
+.contact-strip .kicker,
+.contact-strip h2,
+.contact-strip p {
+  width: 100%;
+  max-width: 52ch;
 }
 .contact-strip-actions {
+  display: flex;
   width: 100%;
   margin-top: 1rem;
   justify-content: center;
