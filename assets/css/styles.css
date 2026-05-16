@@ -127,6 +127,10 @@ h3 { font-size: 1.25rem; }
   border-radius: 18px;
 }
 .symposium-tbd { margin-top: 2.5rem; }
+.outcomes-section-label {
+  display: block;
+  margin-bottom: 1rem;
+}
 .tag {
   display:inline-block; padding:0.35rem 0.65rem; border-radius:999px; background:#fff0f4; color:var(--rutgers-scarlet); font-weight:700; font-size:.86rem;
 }
@@ -258,6 +262,17 @@ footer a { color: white; }
 }
 .contact-strip {
   text-align: center;
+}
+.contact-strip-actions {
+  margin-top: 1rem;
+  justify-content: center;
+}
+.footer-nav {
+  margin: 0.75rem 0 0;
+  font-size: 0.95rem;
+}
+.footer-nav a {
+  font-weight: 600;
 }
 .contact-points-grid {
   display: grid;

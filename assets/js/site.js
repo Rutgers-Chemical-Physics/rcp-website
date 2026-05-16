@@ -1,4 +1,15 @@
 (function () {
+  /** Single source of truth for symposium line shown in the top bar on every page. */
+  const RCP_SYM = {
+    topbarDetails: 'June 5, 2026 · Rutgers–New Brunswick · Hosted by Chemistry',
+  };
+
+  document.querySelectorAll('[data-rcp-symposium-topbar]').forEach((el) => {
+    el.textContent = RCP_SYM.topbarDetails;
+  });
+})();
+
+(function () {
   const path = window.location.pathname.split('/').pop() || 'index.html';
   document.querySelectorAll('nav a').forEach((link) => {
     const href = link.getAttribute('href');
