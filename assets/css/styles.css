@@ -97,6 +97,9 @@ h3 { font-size: 1.25rem; }
   display: grid; gap: 1.25rem;
 }
 .hero-stat-grid { grid-template-columns: repeat(3, 1fr); margin-top: 0.25rem; }
+.hero-stat-grid .stat {
+  text-align: center;
+}
 .stat {
   padding: 1rem; background: var(--panel-alt); border-radius: 16px; border: 1px solid var(--border);
 }
