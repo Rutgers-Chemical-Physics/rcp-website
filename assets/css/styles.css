@@ -146,6 +146,17 @@ h3 { font-size: 1.25rem; }
 }
 .schedule-block ul { margin: 0.75rem 0 0; padding-left: 1.2rem; }
 .schedule-block li { margin: 0.45rem 0; }
+.schedule-sponsor {
+  margin-top: 1rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--border);
+}
+.schedule-sponsor img {
+  display: block;
+  max-width: min(360px, 100%);
+  height: auto;
+  margin-top: 0.75rem;
+}
 .gallery-item {
   overflow: hidden; border-radius: 18px; background: white; border:1px solid var(--border); box-shadow: var(--shadow);
 }
